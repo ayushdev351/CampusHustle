@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #013914;
+    color : white;
+    
+    .container{
+        width : 1400px;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 20px;
+
+        .logo{
+            font-size: 32px;
+            font-weight: bold;
+            .dot{
+                color : #1dbf73;
+            }
+        }
+        .links{
+            cursor : pointer;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-weight: 500;
+            font-family: "Montserrat", sans-serif;
+            button{
+                padding : 10px 15px;
+                border-radius: 5px;
+                color : white;
+                cursor : pointer;
+                border : solid 1px white;
+                background-color: transparent;
+                &:hover{
+                    background-color : #1dbf73;
+                    border-color: #1dbf73;
+                }
+            }
+        }
+    }
+}
