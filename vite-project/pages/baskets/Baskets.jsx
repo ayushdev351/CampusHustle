@@ -1,5 +1,5 @@
 import React from "react";
-import "Baskets./.scss";
+import "./Baskets.scss";
 
 const Baskets = () => {
     return(

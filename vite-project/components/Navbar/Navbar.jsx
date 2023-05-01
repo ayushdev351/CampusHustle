@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
 import "./Navbar.scss";
 
 const Navbar = () => {
@@ -31,10 +33,10 @@ const Navbar = () => {
     return(
         <div className={active ? "navbar active" : "navbar"}>
             <div className="container">
-                <div className="logo">
+                <Link to = "/" className="logo link">
                     <span className="text">Buckett</span>
                     <span className="dot"> .</span>
-                </div>
+                </Link>
                 <div className="links">
                     <span>Explore</span>
                     <span>Sign In</span>
@@ -47,13 +49,13 @@ const Navbar = () => {
                             <div className = {!open ? "close options" : "options"}>
                                 {currentUser.isSeller && (
                                     <>
-                                        <span>My Buckets</span>
-                                        <span>Create Bucket</span>
+                                        <Link className="link" to = "/myBuckets">My Buckets</Link>
+                                        <Link className="link" to = "/add">Create Bucket</Link>
                                     </>
                                 )}
-                                <span>Orders</span>
-                                <span>Messages</span>
-                                <span>Logout</span>
+                                <Link className="link" to = "/orders">Orders</Link>
+                                <Link className="link" to = "/messages">Messages</Link>
+                                <Link className="link" to = "/">Logout</Link>
                             </div>
                         </div>
                     )
@@ -64,11 +66,27 @@ const Navbar = () => {
                 <>
                 <hr/>
                 <div className="menu">
-                    <span>Explore</span>
-                    <span>Sign In</span>
-                    <span>Become Expert</span>
-                    <span>Explore</span>
-                    <span>Sign In</span>
+                    <Link className="link menuLink" to="/">
+                    Graphics & Design
+                    </Link>
+                    <Link className="link menuLink" to="/">
+                    Video & Animation
+                    </Link>
+                    <Link className="link menuLink" to="/">
+                    Writing & Translation
+                    </Link>
+                    <Link className="link menuLink" to="/">
+                    AI Services
+                    </Link>
+                    <Link className="link menuLink" to="/">
+                    Digital Marketing
+                    </Link>
+                    <Link className="link menuLink" to="/">
+                    Business
+                    </Link>
+                    <Link className="link menuLink" to="/">
+                    Lifestyle
+                    </Link>
                 </div>
             </>
             }
