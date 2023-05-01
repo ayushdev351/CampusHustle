@@ -7,7 +7,7 @@ function Featured() {
       <div className="container">
         <div className="left">
           <h1>
-            Find the perfect <span>Bucket</span> for your portfolio
+             Perfect <span>Bucket</span> for Perfect portfolio
           </h1>
           <div className="search">
             <div className="searchInput">
