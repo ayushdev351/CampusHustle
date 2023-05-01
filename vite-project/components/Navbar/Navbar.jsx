@@ -39,9 +39,9 @@ const Navbar = () => {
                 </Link>
                 <div className="links">
                     <span>Explore</span>
-                    <span>Sign In</span>
+                    <Link to="/login" className="link">Sign In</Link>
                     {!currentUser?.isSeller && <span>Become Expert</span>}
-                    {!currentUser && <button>Join</button>}
+                    {!currentUser && <Link className="link" to = "/register"><button>Join</button></Link>}
                     {currentUser && (
                         <div className="user" onClick={menuToggler}>
                             <img src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt = "face"/>

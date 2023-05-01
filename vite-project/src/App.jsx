@@ -70,7 +70,7 @@ function App() {
           element : <Register/>
         },
         {
-          path : "/myBaskets",
+          path : "/myBuckets",
           element : <MyBaskets/>
         },
         {
