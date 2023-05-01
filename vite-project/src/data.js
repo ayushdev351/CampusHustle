@@ -49,7 +49,7 @@ export const cards = [
     },
   ];
   
-  export const projects = [
+  export const buckets = [
     {
       id: 1,
       img: "https://images.pexels.com/photos/1462935/pexels-photo-1462935.jpeg?auto=compress&cs=tinysrgb&w=1600",

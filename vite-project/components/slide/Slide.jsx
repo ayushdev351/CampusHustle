@@ -2,13 +2,13 @@ import React from "react";
 import "./Slide.scss";
 import Slider from "infinite-react-carousel";
 
-const Slide = ({children, slidesToShow, arrowsScroll }) => {
+const Slide = ({children, slidesToShow, arrowsScroll, cardname}) => {
   return (
     <div>
-      <h1>Explore Managers</h1>
+      <h1>Explore {cardname}</h1>
       <div className="slide">
         <div className="container">
-          <Slider slidesToShow={slidesToShow} arrowsScroll={arrowsScroll}>
+          <Slider dots slidesToShow={slidesToShow} arrowsScroll={arrowsScroll}>
             {children}
           </Slider>
         </div>
