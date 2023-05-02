@@ -182,4 +182,13 @@ export const cards = [
       star: 4,
       username: "Wilton Hunt",
     },
+    {
+      id: 9,
+      img: "https://images.pexels.com/photos/8100784/pexels-photo-8100784.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      pp: "https://images.pexels.com/photos/715546/pexels-photo-715546.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      desc: "I will create ai digital art illustration hyper realistic painting",
+      price: 79,
+      star: 4,
+      username: "Walton Doe",
+    },
   ];

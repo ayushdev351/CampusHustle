@@ -1,7 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom"
 import "./BucketCard.scss";
-import { buckets } from "../../src/data";
 
 function BucketCard({ BucketCard }) {
   return (
