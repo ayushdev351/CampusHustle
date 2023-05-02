@@ -57,7 +57,57 @@ const Basket = () => {
                 </div>
             </div>
             <div className="list">
-
+            <table>
+                <tr>
+                    <th>Company Name</th>
+                    <th>% of Portfolio</th>
+                    <th>Avg Buy Price</th>
+                    <th>Gain %</th>
+                    <th>Current Price</th>
+                </tr>
+                <tr>
+                    <td>Windmill Corporate</td>
+                    <td>10</td>
+                    <td>$500</td>
+                    <td>13</td>
+                    <td>$321</td>
+                </tr>
+                <tr>
+                    <td>Windmill Corporate</td>
+                    <td>10</td>
+                    <td>$500</td>
+                    <td>13</td>
+                    <td>$321</td>
+                </tr>
+                <tr>
+                    <td>Windmill Corporate</td>
+                    <td>10</td>
+                    <td>$500</td>
+                    <td>13</td>
+                    <td>$321</td>
+                </tr>
+                <tr>
+                    <td>Windmill Corporate</td>
+                    <td>10</td>
+                    <td>$500</td>
+                    <td>13</td>
+                    <td>$321</td>
+                </tr>
+                <tr>
+                    <td>Windmill Corporate</td>
+                    <td>10</td>
+                    <td>$500</td>
+                    <td>13</td>
+                    <td>$321</td>
+                </tr>
+                <tr>
+                    <td>Windmill Corporate</td>
+                    <td>10</td>
+                    <td>$500</td>
+                    <td>13</td>
+                    <td>$321</td>
+                </tr>
+                </table>
             </div>
         </div>
     )
