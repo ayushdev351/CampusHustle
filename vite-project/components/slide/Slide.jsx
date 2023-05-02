@@ -4,7 +4,7 @@ import Slider from "infinite-react-carousel";
 
 const Slide = ({children, slidesToShow, arrowsScroll, cardname}) => {
   return (
-    <div>
+    <div className="slider">
       <h1>Explore {cardname}</h1>
       <div className="slide">
         <div className="container">

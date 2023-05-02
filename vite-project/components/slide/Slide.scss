@@ -1,11 +1,15 @@
-h1{
-  text-align: center;
-  margin-top: 50px;
-  font-weight: 400;
-  color : rgb(183, 181, 181);
-}
 
-.slide {
+
+.slider{
+
+  h1{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 400;
+    color : rgb(183, 181, 181);
+  } 
+
+  .slide {
     display: flex;
     justify-content: center;
     padding: 50px 0px;
@@ -35,3 +39,4 @@ h1{
       left: -25px;
     }
   }
+}

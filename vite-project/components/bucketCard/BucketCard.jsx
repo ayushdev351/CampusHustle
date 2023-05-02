@@ -4,7 +4,7 @@ import "./BucketCard.scss";
 
 function BucketCard({ BucketCard }) {
   return (
-    <Link to = "/" className="link">
+    <Link to = "/basket/123" className="link">
       <div className="BucketCard">
         <img src={BucketCard.img} alt="" />
         <div className="content">

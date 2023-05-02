@@ -24,8 +24,8 @@ const Baskets = () => {
   return (
     <div className="gigs">
       <div className="container">
-        <span className="breadcrumbs">Buckett - John Doe</span>
-        <h1>John Doe's</h1>
+        <span className="breadcrumbs">Buckett - Windmill Capital</span>
+        <h1>Windmill Capital</h1>
         <div className="menu">
           <div className="left">
             <span>Value</span>
