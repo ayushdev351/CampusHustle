@@ -19,7 +19,7 @@ const Home = () => {
             </Slide>
             <br/>
             <br/>
-            <Slide slidesToShow={4} arrowsScroll={4} cardname="Buckets">
+            <Slide slidesToShow={3} arrowsScroll={3} cardname="Buckets">
             {buckets.map((bucket) => (
                 <BucketCard id={bucket.id} BucketCard = {bucket}></BucketCard>
             ))}
