@@ -57,6 +57,7 @@ const Basket = () => {
                 </div>
             </div>
             <div className="list">
+            <h1>Bucket Composition</h1>
             <table>
                 <tr>
                     <th>Company Name</th>
@@ -73,11 +74,18 @@ const Basket = () => {
                     <td>$321</td>
                 </tr>
                 <tr>
-                    <td>Windmill Corporate</td>
-                    <td>10</td>
-                    <td>$500</td>
-                    <td>13</td>
-                    <td>$321</td>
+                    <td>Visa Inc</td>
+                    <td>11.1</td>
+                    <td>$50</td>
+                    <td>130</td>
+                    <td>$3201</td>
+                </tr>
+                <tr>
+                    <td>Mastercard</td>
+                    <td>5</td>
+                    <td>$623</td>
+                    <td>5</td>
+                    <td>$3201</td>
                 </tr>
                 <tr>
                     <td>Windmill Corporate</td>
@@ -87,25 +95,18 @@ const Basket = () => {
                     <td>$321</td>
                 </tr>
                 <tr>
-                    <td>Windmill Corporate</td>
-                    <td>10</td>
-                    <td>$500</td>
-                    <td>13</td>
-                    <td>$321</td>
+                    <td>Moody's Corp</td>
+                    <td>25</td>
+                    <td>$560</td>
+                    <td>73</td>
+                    <td>$3021</td>
                 </tr>
                 <tr>
-                    <td>Windmill Corporate</td>
-                    <td>10</td>
-                    <td>$500</td>
+                    <td>Amazon Corporate</td>
+                    <td>30</td>
+                    <td>$800</td>
                     <td>13</td>
-                    <td>$321</td>
-                </tr>
-                <tr>
-                    <td>Windmill Corporate</td>
-                    <td>10</td>
-                    <td>$500</td>
-                    <td>13</td>
-                    <td>$321</td>
+                    <td>$4321</td>
                 </tr>
                 </table>
             </div>

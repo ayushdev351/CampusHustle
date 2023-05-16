@@ -1,53 +1,49 @@
 export const cards = [
-    {
-      id: 1,
-      title: "AI Artists",
-      desc: "Add talent to AI",
-      img: "https://images.pexels.com/photos/7532110/pexels-photo-7532110.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    },
-    {
-      id: 2,
-      title: "Logo Design",
-      desc: "Build yor brand",
-      img: "https://images.pexels.com/photos/11295165/pexels-photo-11295165.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    },
-    {
-      id: 3,
-      title: "WordPress",
-      desc: "Customize your site",
-      img: "https://images.pexels.com/photos/4371669/pexels-photo-4371669.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    },
-    {
-      id: 4,
-      title: "Voice Over",
-      desc: "Share your message",
-      img: "https://images.pexels.com/photos/7608079/pexels-photo-7608079.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    },
-    {
-      id: 5,
-      title: "Video Explainer",
-      desc: "Engage your audience",
-      img: "https://images.pexels.com/photos/13388047/pexels-photo-13388047.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    },
-    {
-      id: 6,
-      title: "Social Media",
-      desc: "Reach more customers",
-      img: "https://images.pexels.com/photos/11378899/pexels-photo-11378899.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    },
-    {
-      id: 7,
-      title: "SEO",
-      desc: "Unlock growth online",
-      img: "https://images.pexels.com/photos/4820241/pexels-photo-4820241.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    },
-    {
-      id: 8,
-      title: "Illustration",
-      desc: "Color you dreams",
-      img: "https://images.pexels.com/photos/15032623/pexels-photo-15032623.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    },
-  ];
+  {
+    id: 1,
+    title: "Gold",
+    desc: "OTC Vs Exchange",
+    img: "https://i.ibb.co/M6NfzTn/gold1.jpg",
+  },
+  {
+    id: 2,
+    title: "Equity",
+    desc: "Bull Vs Bear",
+    img: "https://i.ibb.co/PYX59tD/Sensex-770x433.webp",
+  },
+  {
+    id: 3,
+    title: "Options and Futures ",
+    desc: "Derivative Market",
+    img: "https://i.ibb.co/JQcTsmR/stock-market1.jpg",
+  },
+  
+  
+  {
+    id: 4,
+    title: "Commidity",
+    desc: "Primary Products",
+    img: "https://i.ibb.co/qgqpVDL/commidity.jpg",
+  },
+  {
+    id: 5,
+    title: "Banking",
+    desc: "Line Of Credit",
+    img: "https://i.ibb.co/6HYrWcF/bank.png",
+  },
+  {
+    id: 6,
+    title: "Bonds",
+    desc: "Debt Security",
+    img: "https://i.ibb.co/H7BgFCs/bonds.jpg",
+  },
+  {
+    id: 7,
+    title: "Real Estate ",
+    desc: "Land and Property",
+    img: "https://i.ibb.co/TWc3PGj/real.jpg",
+  },
+];
   
   // export const buckets = [
   //   {
@@ -112,7 +108,7 @@ export const cards = [
   export const buckets = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "https://images.unsplash.com/photo-1439434768192-c60615c1b3c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
       pp: "https://images.pexels.com/photos/720598/pexels-photo-720598.jpeg?auto=compress&cs=tinysrgb&w=1600",
       desc: "I will create ai art character from your images and prompts",
       price: 59,
@@ -121,7 +117,7 @@ export const cards = [
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "https://images.unsplash.com/photo-1604689598793-b8bf1dc445a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       pp: "https://images.pexels.com/photos/1036627/pexels-photo-1036627.jpeg?auto=compress&cs=tinysrgb&w=1600",
       desc: "I will create ultra high quality character art with ai",
       price: 79,
@@ -130,7 +126,7 @@ export const cards = [
     },
     {
       id: 3,
-      img: "https://images.pexels.com/photos/8797307/pexels-photo-8797307.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "https://images.unsplash.com/photo-1642543348745-03b1219733d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       pp: "https://images.pexels.com/photos/1062280/pexels-photo-1062280.jpeg?auto=compress&cs=tinysrgb&w=1600",
       desc: "I will creating unique ai generated artworks mid journey ai artist",
       price: 112,
@@ -139,7 +135,7 @@ export const cards = [
     },
     {
       id: 4,
-      img: "https://images.pexels.com/photos/5708069/pexels-photo-5708069.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "https://images.unsplash.com/photo-1632507127789-eb70cc8757af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80",
       pp: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1600",
       desc: "I will create custom ai generated artwork using your photos",
       price: 99,
@@ -148,7 +144,7 @@ export const cards = [
     },
     {
       id: 5,
-      img: "https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
       pp: "https://images.pexels.com/photos/1771383/pexels-photo-1771383.jpeg?auto=compress&cs=tinysrgb&w=1600",
       desc: "I will recreate your dreams in high quality pictures",
       price: 59,
@@ -157,7 +153,7 @@ export const cards = [
     },
     {
       id: 6,
-      img: "https://images.pexels.com/photos/8100784/pexels-photo-8100784.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
       pp: "https://images.pexels.com/photos/715546/pexels-photo-715546.jpeg?auto=compress&cs=tinysrgb&w=1600",
       desc: "I will create ai digital art illustration hyper realistic painting",
       price: 79,
