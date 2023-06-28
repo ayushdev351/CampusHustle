@@ -12,14 +12,14 @@ const Home = () => {
     return(
         <div className="home">
             <Featured/>
-            <Slide slidesToShow={5} arrowsScroll={5} cardname = "Managers">
+            <Slide slidesToShow={5} arrowsScroll={5} cardname = "Categories">
             {cards.map((card) => (
                 <Card id={card.id} card = {card}></Card>
             ))}
             </Slide>
             <br/>
             <br/>
-            <Slide slidesToShow={3} arrowsScroll={3} cardname="Buckets">
+            <Slide slidesToShow={3} arrowsScroll={3} cardname="Services">
             {buckets.map((bucket) => (
                 <BucketCard id={bucket.id} BucketCard = {bucket}></BucketCard>
             ))}
